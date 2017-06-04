@@ -1,10 +1,11 @@
 ---
-title: NOW to write my first book
+title: hellow world
 date: 2017-05-09 17:04:24
-categories: fdbook
+categories: fdBook
 tags:
 ---
-
-	Hellow , fdbook!
-	
-	end!
+``` bash
+    已经忘了有多久没有动笔了！也忘了多久没有加墨了，生锈的笔，生锈的我，不知道自己还能写出什么，或许是个笑话，毕竟我这么
+可笑，哦不，搞笑，以前的我喜欢把开心不开心的写到故事里，回忆太过放肆，一笔一段人生，now，让我们开始新的旅程吧（ps 说
+错了是我，没有们，没有听众依然飞舞着 my paint）
+```
