@@ -1,0 +1,121 @@
+# Header
+
+menu:
+  主页: /
+  随笔: /categories/fdbook
+  归档: /archives
+
+# SubNav
+subnav:
+  github: "https://github.com/chenbaowu"
+  weibo: "http://weibo.com/u/3235816714?topnav=1&wvr=6&topsug=1&is_hot=1"
+  #rss: "#"
+  #zhihu: "#"
+  #qq: "#"
+  #weixin: "#"
+  #jianshu: "#"
+  #douban: "#"
+  #segmentfault: "#"
+  #bilibili: "#"
+  #acfun: "#"
+  #mail: "mailto:litten225@qq.com"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# 是否需要修改 root 路径
+# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
+# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+root: 
+
+# Content
+
+# 文章太长，截断按钮文字
+excerpt_link: more
+# 文章卡片右下角常驻链接，不需要请设置为false
+show_all_link: 'show more'
+# 数学公式
+mathjax: false
+# 是否在新窗口打开链接
+open_in_new: false
+
+# 打赏
+# 请在需要打赏的文章的md文件头部，设置属性reward: true
+
+# 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
+reward_type: 2
+# 打赏wording
+reward_wording: '谢谢土豪'
+# 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
+alipay: http://img2.ph.126.net/_yq4ahJEzXGW2OnM2ubmWg==/6632322308466806756.jpg
+# 微信二维码图片地址
+weixin: http://img2.ph.126.net/pJfVLxuSwJvkTcXHYKWbMg==/6632615878071430418.jpg
+
+# Miscellaneous
+baidu_analytics: true
+google_analytics: ''
+favicon: /images/favicon.jpg
+
+#你的头像url
+avatar: /images/fd.jpg
+animate: true
+
+#是否开启分享
+share_jia: true
+
+#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 不需要使用某项，直接设置值为false，或注释掉
+#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
+
+#1、多说
+duoshuo: false
+
+#2、网易云跟帖
+wangyiyun: false
+
+#3、畅言
+changyan_appid: false
+changyan_conf: false
+
+disqus: 
+  #on: true
+  shortname: 
+  # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
+  # It is unnecessary to enable disqus here if 
+  # you have set "disqus_shortname" in your site's "_config.yml" 
+
+youyan:
+  on: true
+  id: '2133519'
+  # 是否开启友言评论，http://www.uyan.cc/index.php
+  # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
+  # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
+
+# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+style:
+  # 头像上面的背景颜色
+  header: '#4d4d4d'
+  # 右滑板块背景
+  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+
+# slider的设置
+slider:
+  # 是否默认展开tags板块
+  showTags: false
+
+# 智能菜单
+# 如不需要，将该对应项置为false
+# 比如
+#smart_menu:
+#  friends: false
+smart_menu:
+  innerArchive: '所有文章'
+  #friends: '友链'
+  aboutme: '关于我'
+
+friends:
+  weibo : http://weibo.com/u/3235816714/home?wvr=5
+
+aboutme: 我就是我
