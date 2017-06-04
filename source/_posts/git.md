@@ -29,7 +29,7 @@ $ git init
 ```
 5.将文件加入暂存区
 ``` bash
-$ git add . //将目录下所有文件加入暂存区
+$ git add . //将目录下所有文件加入暂存区，可以是文件名
 $ git add my_file,other_file //将目录下所有文件加入暂存区
 ```
 6.提交本地仓库
@@ -39,7 +39,7 @@ $ git commit -am "初次提交"
 7.推送到远程仓库
 ``` bash
 $ git remote add origin git@github.com:用户名/项目名.git  // 添加远程仓库 origin 
-$ git push origin master  
+$ git push origin master  // 客户端首次提交 ，以后直接 git push
 ```
 8.实用命令
 ``` bash
@@ -48,7 +48,7 @@ $ git remote add origin git@github.com:chenbaowu/fdBook.git // 添加远程仓�
 $ git remote rm 远程仓库名 //  删除远程仓库
 $ git remote -v // 查看当前远程仓库地址
 $ git fetch origin master  // 取回origin的master分支
-$ git merge origin master //将origin merge 到 master 上
-$ git push -u origin master // 客户端首次提交 ，以后直接 git pull ，相当于 fetch 加上 merge
+$ git merge origin master // 将origin merge 到 master 上
+$ git push  // 相当于 fetch 加上 merge
 & git status  // 查看状态
 ```
