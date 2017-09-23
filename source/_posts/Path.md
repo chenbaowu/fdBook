@@ -132,7 +132,7 @@ boolean getSegment (float startD, float stopD, Path dst, boolean startWithMoveTo
 ## 布尔操作
 
 |逻辑名称				|类比		|说明	
-| --------  			| 	-----:   | :----: |
+| --------  			| 	-----:  | :----: |
 |DIFFERENCE				|差集		|Path1中减去Path2后剩下的部分	
 |REVERSE_DIFFERENCE		|差集		|Path2中减去Path1后剩下的部分	
 |INTERSECT				|交集		|Path1与Path2相交的部分	

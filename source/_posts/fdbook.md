@@ -1,7 +1,7 @@
 ---
 title: hellow world
 date: 2017-05-09 17:04:24
-categories: fdBook
+categories: fdbook
 tags:
 ---
 ``` bash

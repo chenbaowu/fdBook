@@ -2,7 +2,7 @@
 title: volatitle 关键字
 date: 2017-05-10 15:35:10
 categories: android
-tags: java语法
+tags: java
 ---
 
 ## 首先先普及下内存模型的概念

@@ -1,6 +1,7 @@
 ---
 title: tip
-date: 2017-08-28 00:00:00
+date: 2017-09-17 20:20:20
+categories: fdbook
 tags: tip
 ---
 
@@ -9,6 +10,8 @@ tags: tip
 ### 记得吃药
 
 <!-- more -->
+
+### Today is a special one ， hand in hand ！
 
 ### other
 
