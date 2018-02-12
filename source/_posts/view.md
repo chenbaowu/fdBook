@@ -8,6 +8,17 @@ tags: 自定义view
 ## View的坐标系
 ![](http://img2.ph.126.net/xkg-KtxNMPdvkVHUtntDiA==/6631898996492790587.jpg)
 
+View在屏幕上的位置由它的以下四个参数所决定：
+top：View的左上角的纵坐标，对应着View类中的成员变量mTop，可由getTop方法获得；
+left：View的左上角的横坐标，对应着View类中的成员变量mLeft，可由getLeft方法获得；
+bottom：View的右下角的纵坐标，对应着View类中的成员变量mBottom，可由getBottom方法获得；
+right：View的右下角的横坐标，对应着View类中的成员变量mRight，可由getRight方法获得。
+
+有了这四个参数，计算View的宽高就很容易了：width = right - left；height = bottom - top。
+关于View还有两个参数需要我们注意：translationX代表View平移的水平距离，translationY代表View平移的竖直距离；x、y分别为View的左上角的横纵坐标。
+View若经过了平移，改变的是它的x、y（代表当前View的左上角位置），它的四个位置参数代表了View的原始位置信息，是始终不变的。
+View在平移的过程中始终满足关系：x = left + translationX; y = top + translationY。
+
 <!-- more -->
 ## 从构造函数开始
 ``` bash
