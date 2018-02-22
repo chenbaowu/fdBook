@@ -1,6 +1,6 @@
 ---
 title: canvas 基本绘制
-date: 2017-05-22 23:26:00
+date: 2017-08-13 21:08:00
 categories: android
 tags: [自定义view,canvas]
 ---

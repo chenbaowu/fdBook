@@ -1,6 +1,6 @@
 ---
 title: synchronized ， sleep ，wait ，notify，等的理解
-date: 2017-05-10 16:30:04
+date: 2017-05-13 21:21:21
 categories: android
 tags: 多线程
 ---

@@ -1,6 +1,6 @@
 ---
 title: 初识 android View
-date: 2017-05-14 13:57:51
+date: 2017-10-15 15:15:15
 categories: android
 tags: 自定义view
 ---

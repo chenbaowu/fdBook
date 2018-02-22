@@ -1,8 +1,8 @@
 ---
 title: android_touch
-date: 2017-09-23 15:22:41
+date: 2018-01-01 11:11:11
 categories: android
-tags: touch
+tags: view
 ---
 
 # android 事件机制全解
