@@ -2,7 +2,7 @@
 title: 初识 android View
 date: 2017-10-15 15:15:15
 categories: android
-tags: 自定义view
+tags: view
 ---
 
 ## View的坐标系

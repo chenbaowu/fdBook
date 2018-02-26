@@ -2,7 +2,7 @@
 title: Paint 详解
 date: 2017-07-29 21:21:00
 categories: android
-tags: [自定义view,paint]
+tags: [view,paint]
 ---
 
 ## api合集

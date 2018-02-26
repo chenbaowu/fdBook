@@ -2,7 +2,7 @@
 title: canvas 启动
 date: 2017-07-22 10:10:10
 categories: android
-tags: [自定义view,canvas]
+tags: [view,canvas]
 ---
 
 ## 基本api

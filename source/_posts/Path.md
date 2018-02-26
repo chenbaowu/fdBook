@@ -1,7 +1,7 @@
 ---
 title: Path
 date: 2017-08-20 15:20:20
-tags: 自定义view
+tags: view
 categories: android
 ---
 

@@ -2,7 +2,7 @@
 title: Paint shader
 date: 2017-08-06 20:06:00
 categories: android
-tags: [自定义view,paint]
+tags: [view,paint]
 ---
 
 ## BitmapShader
