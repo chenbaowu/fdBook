@@ -1,6 +1,6 @@
 ---
 title: mediacodec 视频硬编解码
-date: 2018-01-23 14:44:42
+date: 2018-03-11 14:44:42
 categories: android
 tags: 编解码
 ---

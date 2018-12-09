@@ -23,5 +23,5 @@ tags: java
 2）禁止进行指令重排序。
 3）不保證原子性
 
-### [参考链接] (http://blog.csdn.net/victor_cindy1/article/details/44310195)
+### [参考链接 ](http://blog.csdn.net/victor_cindy1/article/details/44310195)
 
