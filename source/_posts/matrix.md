@@ -27,26 +27,35 @@ Matrix是一个矩阵，主要功能是坐标映射，数值转换。
 ![](http://img2.ph.126.net/lLgxenxlqDF5YxZLpzNWCA==/6631958370120993878.jpg)
 
 ![](http://img2.ph.126.net/vsbc2LIGtxuljuHNXf4wmw==/6632187068539571318.jpg)
+
+1.平移(Translate)
+![](http://img0.ph.126.net/PD1xNmJl62omqzWRDIaxmA==/6631940777934952104.png)
+
 1.缩放(Scale)
-
-x = k1 * x0
-y = k2 * y0
-
-用矩阵表示:
-[x]	  [k1 0  0] [x0]
-[y] = [0  k2 0] [y0]
-[1]	  [0  0  1] [1]
+![](http://img0.ph.126.net/yxxYNGlvMh8U-YYhX8ZRpg==/6597299564589219474.png)
 
 2.错切(Skew)
 ![](http://img2.ph.126.net/PX_kROAusLUUf5wlOSfXYQ==/6632148585632598953.png)
 
+![](http://img2.ph.126.net/QHZXCXsOZfzHivZIsJHB0Q==/1900519042850874782.png)
+
+![](http://img2.ph.126.net/y24FqPvh-3BL_a9nv9BD5A==/2221681991277701705.png)
+
 3.旋转(Rotate)
 ![](http://img0.ph.126.net/F_w5X6pSBGRTDgOuYLnTQQ==/6632080415911681023.png)
 
-4.平移(Translate)
-![](http://img0.ph.126.net/PD1xNmJl62omqzWRDIaxmA==/6631940777934952104.png)
+旋转中心默认是0点(即左上角),如果是围绕某个点顺时针旋转，那么可以用矩阵表示为：
+![](http://img1.ph.126.net/0cCxXz_6VzMbWrk1-1BAkA==/1439744505975518008.png)
+经过上一步旋转变换后，再将坐标原点移回到原来的坐标原点。
+ 
+
+<font color=#196EFF>所以，围绕某一点进行旋转变换，可以分成3个步骤，即首先将坐标原点移至该点，然后围绕新的坐标原点进行旋转变换，再然后将坐标原点移回到原先的坐标原点。</font>  
 
 5.每一种操作在Matrix均有三类,前乘(pre)，后乘(post)和设置(set),设置使用的不是矩阵乘法，而是直接覆盖掉原来的数值,这点要注意
+
+pre是先乘，因为矩阵的乘法不满足交换律，因此先乘、后乘必须要严格区分。先乘相当于矩阵运算中的右乘。
+
+post是后乘，因为矩阵的乘法不满足交换律，因此先乘、后乘必须要严格区分。后乘相当于矩阵运算中的左乘。
 
 ## Matrix 常用api
 
@@ -219,4 +228,6 @@ public class MatrixSetPolyToPolyTest extends View {
     }
 }
 ```
+
+### [参考](http://www.gcssloop.com/customview/Matrix_Basic)
 
